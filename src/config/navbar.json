@@ -1,0 +1,124 @@
+{
+	"navbar": {
+		"left_nav": {
+			"left_nav_home": {
+				"id": "left_nav_home",
+				"name": "left_nav_home",
+				"title": "Home",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/"
+			},
+			"left_nav_dashboards": {
+				"id": "left_nav_dashboards",
+				"name": "left_nav_dashboards",
+				"title": "Dashboards",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/dashboard"
+			},
+			"left_nav_contractor_search": {
+				"id": "left_nav_contractor_search",
+				"name": "left_nav_contractor_search",
+				"title": "Contractor Search",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": true,
+				"options": {
+					"left_nav_contractor_search": {
+						"id": "left_nav_contractor_search",
+						"name": "left_nav_contractor_search",
+						"title": "Contractor Search",
+						"disabled": false,
+						"restricted": false,
+						"url": "/contractor-search"
+					}
+				}
+			},
+			"left_nav_bpo_search": {
+				"id": "left_nav_bpo_search",
+				"name": "left_nav_bpo_search",
+				"title": "FMIS BPO/PO Search",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": true,
+				"options": {
+					"left_nav_contractor_search": {
+						"id": "left_nav_bpo_search",
+						"name": "left_nav_bpo_search",
+						"title": "BPO Search",
+						"disabled": false,
+						"restricted": false,
+						"url": "/bpo-search"
+					}
+				}
+			},
+			"left_nav_reports": {
+				"id": "left_nav_reports",
+				"name": "left_nav_reports",
+				"title": "MBE Reports",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": true,
+				"options": {
+					"left_nav_reports_reports": {
+						"id": "left_nav_reports_reports",
+						"name": "left_nav_reports_reports",
+						"title": "MBE Reports",
+						"disabled": false,
+						"restricted": false,
+						"url": "/reports"
+					},
+					"left_nav_reports_user_guide": {
+						"id": "left_nav_reports_user_guide",
+						"name": "left_nav_reports_user_guide",
+						"title": "User Guide",
+						"disabled": false,
+						"restricted": false,
+						"url": "/user-guide"
+					}
+				}
+			},
+			"left_nav_pre_award": {
+				"id": "left_nav_pre_award",
+				"name": "left_nav_pre_award",
+				"title": "Pre-Award",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/pre-award"
+			},
+			"left_nav_post_award": {
+				"id": "left_nav_post_award",
+				"name": "left_nav_post_award",
+				"title": "Post-Award",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/post-award"
+			}
+		},
+		"right_nav": {
+			"right_nav_system_admin": {
+				"id": "right_nav_system_admin",
+				"name": "right_nav_system_admin",
+				"title": "System Admin",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/system-admin"
+			},
+			"right_nav_logoff": {
+				"id": "right_nav_logoff",
+				"name": "right_nav_logoff",
+				"title": "Logoff",
+				"disabled": false,
+				"restricted": false,
+				"dropdown": false,
+				"url": "/logoff"
+			}
+		}
+	}
+}
